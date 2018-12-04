@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Anchovies</title>
+    <!--Required metatag and stylesheet-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!--Custom styles here-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        
+        
+        .carousel { position: relative; 
+            align-content: center;
+            
+            
+        }
+        #container {
+            margin: 0 auto;
+            max-width: 600px;
+        }
+
+        #display {
+            max-width: 100%;
+        }
+
+        #thumbs {
+            list-style: none;
+            padding: 0px;
+            text-align: center;
+        }
+
+        li {
+            display: inline-block;
+        }
+
+        #thumbs img {
+            max-width: 50px;
+            border: 1px solid #f00;
+        }
+
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .jumbotron {
+            background-image: url("img/hero.jpg");
+            height: 100%;
+            max-width: 100%;
+            min-width: 767;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-color: NONE;
+            position: relative;
+            padding-left: 100px;
+            padding-right: 100px;
+            padding-top: 20px;
+            background-size: auto;
+        }
+
+        .hero-text {
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+        }
+
+        #tags {
+
+            border-radius: 50%
+        }
+
+        #tags2 {
+            
+            border-radius: 80%;
+            
+        }
+        .hero-text button {
+            border: none;
+            outline: 0;
+            display: inline-block;
+            padding: 10px 25px;
+            color: black;
+            background-color: #ddd;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        .hero-text button {
+            background-color: #555;
+            color: white;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .column {
+            float: left;
+            width: 33.3%;
+            padding: 10px;
+            height: 300px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        #column {
+            margin-top: 0px;
+        }
+
+        /*.row: {
+            content: "";
+            display: table;
+            clear: both;
+        }
+*/
+        #Brag {
+            font: 35px;
+            text-align: center;
+            padding-top: 50px;
+        }
+
+        #food {
+            left: 50%;
+            top: 44;
+            margin-left: -45.5%;
+            position: absolute;
+            margin-top: 4%;
+        }
+
+        #specials {
+            left: 50%;
+            top: 50;
+            margin-left: position: absolute;
+            margin-top: 14%;
+        }
+
+        #list {
+            background: url("img/chalk%20board.png");
+            background-size: 99.5%;
+            background-repeat: no-repeat;
+            background-position: center;
+            text-align: left
+        }
+
+        li {
+            text-emphasis-position: left;
+        }
+
+        #column {
+            padding-bottom: 800px
+        }
+
+        #padding {
+            padding: 225px
+            
+        }
+        
+   
+}
+        
+    
+      
+        .item { position: center;
+    float: center;
+    width:  800px;
+    height: 800px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;}
+        
+        .col-md-4{
+    position: relative;
+    float: center;
+    width:  300px;
+    height: 500px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+}
+        
+        .display { position: center;
+    float: center;
+    width:  1000px;
+    height: 1000px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;}
+        
+        #body 
+    </style>
+</head>
+  <body>  
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+
+  </div>
+</div>
+
+    
+    
+    <h1><center> WELCOME </center>
+
+    
+    
+    <h2 align="center"><img src="img/eatdbm.png"></h2>
+    <div class="container">
+            <div class="row">
+<!--        <div class="column" style="background-color:white;">-->
+        <div class="col-md-4" style="background-color:white;">
+            <div><img src="img/menu1.jpg" id="tags" class="img-responsive">
+                <a href="food.html" class="menu">Food</a>
+            </div>
+
+
+        </div>
+        <div class="col-md-4" style="background-color:white;">
+            <p><img src="img/bar.jpg" id="tags" class="img-responsive"> </p>
+            <a href="drink.html" class="menu" align="left">Drinks</a>
+
+        </div>    
+        <div class="col-md-4" style="background-color:white">
+            <p> <img src="img/specials.jpg" id="tags" class="img-responsive"></p>
+            <a href="specials.html" id="specials" class="btn" >Specials</a>
+        </div>
+    </div>
+
+    </div>
+    
+
+    <h2> Bragging Right</h2>
+    
+    <div class="panel-group" id="accordion">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4 class="panel-title">
+								<a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+									Awards
+								</a>
+							</h4>
+						</div>
+						<div id="collapse1" class="panel-collapse collapse in">
+							<div class="panel-body">
+                                Best of Boston 2010
+                                
+				Anchovies awarded Boston Magazine's Best of Boston 2010 for Best Neighborhood Restaurant in the South End. While many local restaurants have adopted upscale comfort food of late, Anchovies has always been both low-key and low-priced. Neighbors inhale the giant plates of pasta and hearty pizzas, along with their infamous "Italian nachos." It's easy to get in and out for just $20 bucks a person (including a martini), making it a true weeknight joint.
+							</div>
+						</div>
+					</div>
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4 class="panel-title">
+								<a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+									Reviews
+								</a>
+							</h4>
+						</div>
+						<div id="collapse2" class="panel-collapse collapse">
+							<div class="panel-body">
+								THE ZAGAT REVIEW
+Outwardly a “hole-in-the-wall” bar, this “cheap and cheerful” Back Bay haunt is a “fantastic find” for “feel-good Italian” fare and “generous” pours; it can be “a little difficult to get a table”, as it's filled with an “interesting crowd”, "particularly during the late hours.
+                                
+                                
+							</div>
+						</div>
+					</div>
+					
+					</div>
+			
+
+    
+    
+    
+    
+    
+    		
+						
+		
+								<div id="container">
+        <img id="display" src="img/pizza.jpg">
+        <ul id="thumbs">
+            <li><img src="img/discoball.jpg"></li>
+            <li><img src="img/women.jpg"></li>
+            <li><img src="img/nurse.jpg"></li>
+            <li><img src="img/calzone2.jpg"></li>
+            <li><img src="img/tombrady.jpg"></li>
+            <li><img src="img/snow%20man2.jpg"></li>
+        </ul>
+    </div>
+					
+    
+
+    <!--Required scripts-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <!--Custom script here-->
+    <script>
+        thumbs = (document.querySelectorAll("#thumbs img"));
+        for (i = 0; i < thumbs.length; ++i) {
+
+            thumbs[i].onclick = function() {
+
+                imgsrc = this.src;
+
+                imgsrc = imgsrc.replace('thumb', 'full');
+
+                document.getElementById('display').src = imgsrc;
+            };
+        };
+    </script>
+</body>
+
+</html>
